@@ -1,0 +1,130 @@
+body{
+    position: relative;
+}
+.mx-auto{
+    background-color: #4682B4;
+}
+.profile-image{
+    width: 60%;
+    padding-top: 20px;
+    color: white;
+}
+.profile-image img{
+    border-radius: 50%;
+}
+.profile-image, h3{
+    font-weight: bold;
+    text-align: center;
+}
+
+.main-menu{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.main-menu a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.main-menu a:hover{
+    color: lightsteelblue;
+}
+
+
+
+.main-menu i{
+    margin-right: 15px;
+}
+
+.main-menu li{
+    
+    padding: 15px 0;
+    border-bottom: white solid 1px;
+}
+
+.info-menu{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 0;
+    padding-top: 50px;
+}
+
+.info-menu li{
+    font-size: 10pt;
+    color: white;
+    margin-bottom: 10px;
+}
+.info-menu i{
+    margin-right: 5px;
+}
+
+.info-menu a{
+    color: white;
+}
+
+
+.about-me, .hobby, .skill-project, .contact-info{
+    padding: 25px;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+    margin: 1%;
+}
+
+.about-me{
+    display: none;
+}
+.hobby{
+    display: none;
+}
+
+
+.container{
+    border: rgba(0, 0, 0, 0.1) solid 1px;
+    padding: 0 0;
+}
+
+.hobby i{
+    font-size: 20px;
+    color: #4682B4;
+}
+
+.hobby h6{
+    font-weight: bold;
+}
+
+.title{
+    
+    display: flex;
+}
+.title h4{
+    font-weight: bold;
+}
+.hr{
+    margin-left: 2%;
+    width: 30%;
+    height: 20px;
+    border-bottom: black solid 2px;
+}
+
+.skill-project{
+    display: none;
+}
+.skill-box, .image-project{
+    border: none;
+}
+
+.contact-info{
+    display: none;
+}
+.contact-info i{
+    font-size: 20px;
+    padding-right: 15px;
+    color: #4682B4;
+}
+
+.contact-info a{
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
